@@ -127,7 +127,7 @@ public class Command {
 
 
 		// add options by using OptionBuilder
-		options.addOption(Option.builder("h").longOpt("help").longOpt("fullpath")
+		options.addOption(Option.builder("h").longOpt("help")
 				.desc("Help")
 				.build());
 
